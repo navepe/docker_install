@@ -1,2 +1,2 @@
 # docker_install
-# Add your password after cloning this script
+Add your password after cloning this script
