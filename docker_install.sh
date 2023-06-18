@@ -1,5 +1,10 @@
 #!/bin/bash
   
+if command -v docker $> /dev/null; then
+        echo "Docker is installed"
+        exit
+fi
+
 packages=(
   docker-ce
   docker-ce-cli
